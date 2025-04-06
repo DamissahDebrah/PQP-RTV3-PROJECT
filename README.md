@@ -49,9 +49,10 @@ The RTV3 Project is designed  to ensure systematic checks and validation process
 
 - Green-highlighted rows represent valid entries, while red-highlighted rows indicate invalid start dates, making it visually clear where errors exist
 
-  **KPIs**: Start date validity, Payment date validity, Payment date 2nd validity, Payment date 3rd validity.
+  **KPIs**: Start date validity, Valid Start Date, Valid Payment Date, Valid Payment Date 2nd , Valid Payment Date 3rd, Date Validity Percentage 
 
-![Screenshot 2025-03-30 092223](https://github.com/user-attachments/assets/ad0e93ba-1506-4f7a-b631-ab9b24b02448)
+<img width="145" alt="image" src="https://github.com/user-attachments/assets/6dda35f6-3c45-4001-9a6d-f6b60a172384" />
+
 
 
 
@@ -86,10 +87,17 @@ ensures accuracy, consistency, and efficiency in the registration workflow. By e
 errors and enforcing structured data handling, organizations can improve decision-making, 
 reduce processing delays, and enhance overall operational performance.
 
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/4041bc7a-f087-47bd-944f-e2144cf2a6bd" />
+# Start Date Validity test Dashboard
 
-<img width="602" alt="image" src="https://github.com/user-attachments/assets/4641b21c-a032-4d48-9b48-429a772162b7" />
+<img width="692" alt="image" src="https://github.com/user-attachments/assets/76a8be56-ab11-435f-9e4e-078297995083" />
+# Payment Date Validity test Dashboard
 
+<img width="692" alt="image" src="https://github.com/user-attachments/assets/147f9582-62da-4dc6-b90f-d0c0763eebcd" />
+# Payment Date 2nd Validity test Dashboard
 
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/53540d65-55fc-4513-b245-d6fd423398b8" />
+# Payment Date 3rd Validity test Dashboard.
 
 
   
