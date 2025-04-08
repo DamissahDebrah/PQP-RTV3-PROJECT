@@ -42,6 +42,27 @@ With systematic checks and dynamic dashboards, the solution helps maintain data 
 - Payment Date 3rd: This identifies when a User makes the final balance payment.
 
 
+
+# Dashboard Highlights
+
+Below is a snapshot of the Power BI dashboard that tracks row-level validity:
+
+<img width="664" alt="image" src="https://github.com/user-attachments/assets/61ad2949-c88f-45aa-9120-04aabf828026" />
+**Start Date Validity test Dashboard**
+
+<img width="659" alt="image" src="https://github.com/user-attachments/assets/f284837a-e8e3-4611-b07f-58ca8acb95d6" />
+**Payment Date Validity test Dashboard.**
+
+<img width="656" alt="image" src="https://github.com/user-attachments/assets/242ef8d8-9a4c-4917-8f64-0eea43c0d584" />
+**Payment Date 2nd Validity test Dashboard**
+
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/53540d65-55fc-4513-b245-d6fd423398b8" />
+**Payment Date 3rd Validity test Dashboard.**
+
+
+
+
+
 ## 🧮 DAX Logic & Validations
 
 Key validation rules applied:
@@ -110,24 +131,6 @@ Standardizing data entry through controlled inputs, predefined formats, and vali
 ensures accuracy, consistency, and efficiency in the registration workflow. By eliminating manual 
 errors and enforcing structured data handling, organizations can improve decision-making, 
 reduce processing delays, and enhance overall operational performance.
-
-
-
-# Dashboard Highlights
-
-Below is a snapshot of the Power BI dashboard that tracks row-level validity:
-
-<img width="664" alt="image" src="https://github.com/user-attachments/assets/61ad2949-c88f-45aa-9120-04aabf828026" />
-**Start Date Validity test Dashboard**
-
-<img width="659" alt="image" src="https://github.com/user-attachments/assets/f284837a-e8e3-4611-b07f-58ca8acb95d6" />
-**Payment Date Validity test Dashboard.**
-
-<img width="656" alt="image" src="https://github.com/user-attachments/assets/242ef8d8-9a4c-4917-8f64-0eea43c0d584" />
-**Payment Date 2nd Validity test Dashboard**
-
-<img width="689" alt="image" src="https://github.com/user-attachments/assets/53540d65-55fc-4513-b245-d6fd423398b8" />
-**Payment Date 3rd Validity test Dashboard.**
 
 
 
