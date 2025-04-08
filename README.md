@@ -1,27 +1,28 @@
-# Real Time Visibilty test of Payment Date Validty on PQP Marketing Consult
+# 📊 Real-Time Visibility Analysis: Payment Date Validation for PQP Marketing Consult
+
+### 📚 Table of Contents
+- [Objective](#objective)
+- [Tools Used](#tools-used)
+- [Data Sources Analyzed]
+- [DAX Logic & Validations](#dax-logic--validations)
+- [Data Validation patterns]
+- [Dashboard Highlights](#dashboard-highlights)
+- [Key Findings & Insights]
+- [Projected & Actual Impacts]
+- [Conclusion](#conclusion)
+- [Contact](#contact)
+
+# Objective
+The RTV3 Project focuses on enhancing the data accuracy and completeness of payment date entries newly added to the institutional database. During PCT meetings, issues were raised regarding incorrect and incomplete values in the new date fields—particularly Payment Date 2nd and Payment Date 3rd. This project introduces a real-time validation logic using Power BI to detect these issues and empower managers to take prompt action.
+With systematic checks and dynamic dashboards, the solution helps maintain data integrity, improve forecasting, and support smarter decision-making.
 
 
-The idea behind the RTV3 Project is to be able to track the accuracy and integrity of the data newly entered into the newly created columns by the managers and also ensure completeness. In one of the PCT meetings discussions were raised on the accuracy of the data entered into the newly introduced columns. Therefore, the need to be able to validate the integrity of these data into the database. The new columns are Payment Date
-Payment Date 2nd and Payment Date 3rd were introduced into the project and also empty from the initial set of the whole project.
-The RTV3 Project is designed  to ensure systematic checks and validation processes to ensure the reliability of data entered into the database. This initiative will help maintain data accuracy, improve financial forecasting, and support better decision-making across the organization.
+# tools used
+**Power Query Editor**
+**Power BI**
 
 
-# Methodologies Used
-
- •  Nine tables were merged to one  **Global Table**
- 
- .  Data Cleaning & Validation: Checked for invalid start dates and inconsistencies.
- 
- •	Filtering & Segmentation: Used DAX filtering to analyze valid vs. invalid entries by manager.
- 
- •	Data Visualization: Applied conditional formatting (red for invalid, green for valid) for quick insights.
- 
- •	Trend Analysis: Observed patterns in registration dates, manager performance, and course distribution.
-
- 
-
-
-# Data Sources Analyzed
+ # Data Sources Analyzed
 
 - Registration Date: Includes dates of registration and assigned start dates.
  
@@ -41,6 +42,30 @@ The RTV3 Project is designed  to ensure systematic checks and validation process
 
 - Payment Date 3rd: This identifies when a User makes the final balance payment.
 
+
+## 🧮 DAX Logic & Validations
+
+Key validation rules applied:
+
+- ✅ Registration Date < Start Date  
+- ✅ Start Date < Payment Date 2nd  
+- ✅ Payment Date 2nd < Payment Date 3rd
+
+Sample DAX formula to compute valid rows:
+
+```DAX
+Valid_Row_Count = 
+CALCULATE(
+    COUNTROWS('PQP_Data'),
+    'PQP_Data'[Date_Validation_Status] = "Valid"
+)
+
+**Percentage of Valid Row Count
+
+Valid_Row_Percentage = 
+DIVIDE([Valid_Row_Count], [Total_Row_Count], 0)
+
+
 # •	Data Validation Patterns
 
 - A significant portion of the registration data had invalid start dates, which could indicate manual entry errors or inconsistencies in date selection.
@@ -49,14 +74,25 @@ The RTV3 Project is designed  to ensure systematic checks and validation process
 
 - Green-highlighted rows represent valid entries, while red-highlighted rows indicate invalid start dates, making it visually clear where errors exist
 
-  **KPIs**: Start date validity, Valid Start Date, Valid Payment Date, Valid Payment Date 2nd , Valid Payment Date 3rd, Date Validity Percentage 
 
-<img width="145" alt="image" src="https://github.com/user-attachments/assets/6dda35f6-3c45-4001-9a6d-f6b60a172384" />
+# Dashboard Highlights
+
+Below is a snapshot of the Power BI dashboard that tracks row-level validity:
+
+<img width="664" alt="image" src="https://github.com/user-attachments/assets/61ad2949-c88f-45aa-9120-04aabf828026" />
+**Start Date Validity test Dashboard**
+
+<img width="659" alt="image" src="https://github.com/user-attachments/assets/f284837a-e8e3-4611-b07f-58ca8acb95d6" />
+**Payment Date Validity test Dashboard.**
+
+<img width="656" alt="image" src="https://github.com/user-attachments/assets/242ef8d8-9a4c-4917-8f64-0eea43c0d584" />
+**Payment Date 2nd Validity test Dashboard**
+
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/53540d65-55fc-4513-b245-d6fd423398b8" />
+**Payment Date 3rd Validity test Dashboard.**
 
 
-
-
-Key Findings & Insights
+# Key Findings & Insights
 
 - Date Validity: Most registrations have valid start and payment dates, payments date 2nd /3rd  but some entries are invalid and need correction.
 
@@ -81,23 +117,18 @@ Key Findings & Insights
 1.	Reduced Revenue Loss: Fewer errors mean minimized administrative overhead and better accuracy in financial reporting.
 2.	Enhanced Reporting & Compliance: More accurate data improves regulatory compliance and operational transparency.
 
+
 # Conclusion
 Standardizing data entry through controlled inputs, predefined formats, and validation rules 
 ensures accuracy, consistency, and efficiency in the registration workflow. By eliminating manual 
 errors and enforcing structured data handling, organizations can improve decision-making, 
 reduce processing delays, and enhance overall operational performance.
 
-<img width="664" alt="image" src="https://github.com/user-attachments/assets/61ad2949-c88f-45aa-9120-04aabf828026" />
-**Start Date Validity test Dashboard**
 
-<img width="659" alt="image" src="https://github.com/user-attachments/assets/f284837a-e8e3-4611-b07f-58ca8acb95d6" />
-**Payment Date Validity test Dashboard.**
+## 📩 Contact
 
-<img width="656" alt="image" src="https://github.com/user-attachments/assets/242ef8d8-9a4c-4917-8f64-0eea43c0d584" />
-**Payment Date 2nd Validity test Dashboard**
-
-<img width="689" alt="image" src="https://github.com/user-attachments/assets/53540d65-55fc-4513-b245-d6fd423398b8" />
-**Payment Date 3rd Validity test Dashboard.**
+**Damissah Deborah**  
+📧 [damissahdeborah@gmail.com](mailto:damissahdeborah@gmail.com)  
 
 
   
