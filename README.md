@@ -87,7 +87,7 @@ ensures accuracy, consistency, and efficiency in the registration workflow. By e
 errors and enforcing structured data handling, organizations can improve decision-making, 
 reduce processing delays, and enhance overall operational performance.
 
-# Real Time Visibilty test of Payment Date Validty Test Dashboards
+# Real Time Visibilty test of Payment Date Validty Test Dashboards.
 
 <img width="664" alt="image" src="https://github.com/user-attachments/assets/61ad2949-c88f-45aa-9120-04aabf828026" />
 **Start Date Validity test Dashboard**
