@@ -41,26 +41,21 @@ With systematic checks and dynamic dashboards, the solution helps maintain data 
 
 - Payment Date 3rd: This identifies when a User makes the final balance payment.
 
-
-
 # Dashboard Highlights
 
 Below is a snapshot of the Power BI dashboard that tracks row-level validity:
 
-<img width="664" alt="image" src="https://github.com/user-attachments/assets/61ad2949-c88f-45aa-9120-04aabf828026" />
+<img width="663" alt="Power BI Dashboard " src="https://github.com/user-attachments/assets/65467226-917b-4944-8d71-4116c9e0ee17" />
 **Start Date Validity test Dashboard**
 
-<img width="659" alt="image" src="https://github.com/user-attachments/assets/f284837a-e8e3-4611-b07f-58ca8acb95d6" />
+<img width="654" alt="Power BI Dashboard 1" src="https://github.com/user-attachments/assets/f1bc27a5-28c7-4f7b-9842-453ed0702032" />
 **Payment Date Validity test Dashboard.**
 
-<img width="656" alt="image" src="https://github.com/user-attachments/assets/242ef8d8-9a4c-4917-8f64-0eea43c0d584" />
+<img width="659" alt="Power BI Dashboard 2" src="https://github.com/user-attachments/assets/4392f626-0b03-4b32-a263-436f251c0885" />
 **Payment Date 2nd Validity test Dashboard**
 
-<img width="689" alt="image" src="https://github.com/user-attachments/assets/53540d65-55fc-4513-b245-d6fd423398b8" />
+<img width="658" alt="Power BI Dashboard 3" src="https://github.com/user-attachments/assets/e7bd9e01-b513-4cb0-8b6f-fadebc20f834" />
 **Payment Date 3rd Validity test Dashboard.**
-
-
-
 
 
 ## 🧮 DAX Logic & Validations
@@ -85,19 +80,13 @@ CALCULATE(
 Valid_Row_Percentage = 
 DIVIDE([Valid_Row_Count], [Total_Row_Count], 0)
 
-
-
-
-
-# •	Data Validation Patterns
+## Data Validation Patterns
 
 - A significant portion of the registration data had invalid start dates, which could indicate manual entry errors or inconsistencies in date selection.
 
 - The  Date Validity _Check" column clearly distinguishes between valid and invalid entries, allowing for easy identification of discrepancies.
 
 - Green-highlighted rows represent valid entries, while red-highlighted rows indicate invalid start dates, making it visually clear where errors exist
-
-
 
 
 # Key Findings & Insights
