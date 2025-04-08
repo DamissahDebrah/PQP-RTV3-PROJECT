@@ -3,12 +3,12 @@
 ### 📚 Table of Contents
 - [Objective](#objective)
 - [Tools Used](#tools-used)
-- [Data Sources Analyzed]
+- [Data Sources Analyzed](#data sources analyzed)
 - [DAX Logic & Validations](#dax-logic--validations)
-- [Data Validation patterns]
+- [Data Validation Pattern](#data validation pattern)
 - [Dashboard Highlights](#dashboard-highlights)
-- [Key Findings & Insights]
-- [Projected & Actual Impacts]
+- [Key Findings & Insights](#key findings & insights)
+- [Projected & Actual impacts](#projected & actual impacts)
 - [Conclusion](#conclusion)
 - [Contact](#contact)
 
