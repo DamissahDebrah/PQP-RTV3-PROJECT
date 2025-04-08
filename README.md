@@ -1,14 +1,13 @@
 # 📊 Real-Time Visibility Analysis: Payment Date Validation for PQP Marketing Consult
 
-### 📚 Table of Contents
 - [Objective](#objective)
 - [Tools Used](#tools-used)
-- [Data Sources Analyzed](#data sources analyzed)
+- [Data Sources Analyzed](#data-sources-analyzed)
 - [DAX Logic & Validations](#dax-logic--validations)
-- [Data Validation Pattern](#data validation pattern)
+- [Data Validation Pattern](#data-validation-pattern)
 - [Dashboard Highlights](#dashboard-highlights)
-- [Key Findings & Insights](#key findings & insights)
-- [Projected & Actual impacts](#projected & actual impacts)
+- [Key Findings & Insights](#key-findings--insights)
+- [Projected & Actual Impacts](#projected--actual-impacts)
 - [Conclusion](#conclusion)
 - [Contact](#contact)
 
